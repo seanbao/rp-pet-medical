@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package common;
+option go_package = "github.com/seanbao/rp-pet-medical";
+
+// 数据权限
+message DataPermission {
+  // 组织编码列表 用','隔开
+  string org_codes = 1;
+  // 大区编号列表 用','隔开
+  string big_areas = 2;
+  // 用户id
+  string member_id = 3;
+  // 医生id
+  string doctor_code = 4;
+}
