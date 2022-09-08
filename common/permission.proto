@@ -1,7 +1,7 @@
 syntax = "proto3";
 
-package proto;
-option go_package = "github.com/seanbao/rp-pet-medical/proto";
+package common;
+option go_package = "github.com/seanbao/rp-pet-medical/common";
 
 // 数据权限
 message DataPermission {
